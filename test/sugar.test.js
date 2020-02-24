@@ -76,7 +76,7 @@ describe.only("Object.max", () => {
   });
 });
 
-describe("Object.clone", () => {
+describe.only("Object.clone", () => {
   test("returns a copy of the object", () => {
     const person1 = {
       name: "Sally",
@@ -90,7 +90,7 @@ describe("Object.clone", () => {
   });
 });
 
-describe("Object.get", () => {
+describe.only("Object.get", () => {
   test("returns the value for the given key", () => {
     expect(
       Object.get(
